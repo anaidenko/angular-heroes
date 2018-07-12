@@ -10,7 +10,6 @@ phases:
             - echo Build started on `date`
             - ng lint
             - ng build --prod --aot
-            - ng test
     post_build:
          commands:
             - echo Build completed on `date`
